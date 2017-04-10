@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- main activity -->
+	<string name="storagespace">Stockage</string>
+	<string name="memoryspace">Mémoire</string>
+	<string name="cleanup">Fichiers inutiles</string>
+	<string name="speedup">Accélération mémoire</string>
+	<string name="clean_caption">Détails du nettoyage</string>
+	<string name="scaning">Analyse&#8230;</string>
+	<string name="cleanup_btn">Sain</string>
+	<string name="cancel">Annuler</string>
+	<string name="checkup">VERIFIER</string>
+	<string name="msg_no_new_version">Aucune mise à jour</string>
+	<string name="msg_scan_completed">Terminé</string>
+	<string name="msg_his_totalszie">Bilan du nettoyage :%s</string>
+	<string name="score">Score</string>
+	<string name="memoryjunk">£º%s mémoire récupérée</string>
+	<string name="filesjunk">£º%s fichiers libérés</string>
+	    
+	<!-- details activity -->
+	<string name="totalsize">Taille totale trouvée : %s</string>
+	<string name="noitem_file">Aucun fichier inutile trouvé</string>
+	<string name="noitem_memory">Pas de mémoire récupérable trouvée</string>
+	<string name="Junk">Inutile</string>
+	    
+	<!-- menu -->
+	<string name="update">Mise à jour</string>
+	<string name="feedback">Suivi</string>
+	<string name="about">A propos</string>
+	    
+	<!-- config file -->
+	<string name="cfg_backgroundapp">Apps en cours</string>
+	<string name="cfg_appcache">Cache système</string>
+	<string name="cfg_appjunks">Application Cache</string>
+	
+	<!-- about -->
+	<string name="userlicense">Accord de licence</string>
+	<string name="twitter">Partager Fastimizer sur Twitter</string>
+	<string name="facebook">Appréciez-nous sur Facebook</string>
+	<string name="homepage">Site web officiel</string>
+	<string name="version">Version : </string>
+	    
+	<!-- finish activity -->
+	<string name="done">Terminé</string>
+	<string name="msg_clean_completed">Nettoyage achevé</string>
+	<string name="cleanmemorysize">Mémoire libérée :%s</string>
+	<string name="cleanmjunkfile">Fichier inutiles nettoyés :%s</string>
+	    
+	<!-- flash activity -->
+	<string name="functionclean">Nettoyage des fichiers inutiles</string>
+	<string name="functionclean_details">Récupère l\'espace occupé par des fichiers inutiles</string>
+	<string name="functionspeed">Accélération du système</string>
+	<string name="functionspeed_details">Libère de la mémoire pour maximiser la performance</string>
+	<string name="flash_btn">Démarrer</string>
+	<string name="agreementeula">Je suis d\'accord</string>
+</resources>

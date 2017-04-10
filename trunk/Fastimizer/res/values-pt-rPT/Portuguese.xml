@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- main activity -->
+	<string name="storagespace">Armazenamento</string>
+	<string name="memoryspace">Memória</string>
+	<string name="cleanup">Ficheiros Lixo</string>
+	<string name="speedup">Acelerar Memória</string>
+	<string name="clean_caption">Detalhes de Limpeza</string>
+	<string name="scaning">A analisar&#8230;</string>
+	<string name="cleanup_btn">Limpar</string>
+	<string name="cancel">Cancelar</string>
+	<string name="checkup">EXAMINAR</string>
+	<string name="msg_no_new_version">Não há actualizações disponíveis</string>
+	<string name="msg_scan_completed">Concluído</string>
+	<string name="msg_his_totalszie">Registo de Limpeza:%s</string>
+	<string name="score">Pontuação</string>
+	<string name="memoryjunk">Memória lixo encontrada £º%s</string>
+	<string name="filesjunk">Ficheiros lixo encontrados £º%s</string>
+	    
+	<!-- details activity -->
+	<string name="totalsize">Tamanho total encontrado: %s</string>
+	<string name="noitem_file">Não foram encontrados ficheiros lixo</string>
+	<string name="noitem_memory">Não foi encontrada memória lixo</string>
+	<string name="Junk">Lixo</string>
+	    
+	<!-- menu -->
+	<string name="update">Actualizar</string>
+	<string name="feedback">Comentários</string>
+	<string name="about">Acerca</string>
+	    
+	<!-- config file -->
+	<string name="cfg_backgroundapp">Apps em execução</string>
+	<string name="cfg_appcache">Cache do Sistema</string>
+	<string name="cfg_appjunks">Application Cache</string>
+	
+	<!-- about -->
+	<string name="userlicense">Acordo de Licença</string>
+	<string name="twitter">Partilhar o Fastimizer no Twitter</string>
+	<string name="facebook">Gostar de nós no Facebook</string>
+	<string name="homepage">Página Oficial</string>
+	<string name="version">Versão: </string>
+	    
+	<!-- finish activity -->
+	<string name="done">Concluído</string>
+	<string name="msg_clean_completed">Limpeza Concluída</string>
+	<string name="cleanmemorysize">Memória libertada:%s</string>
+	<string name="cleanmjunkfile">Ficheiros limpos:%s</string>
+	    
+	<!-- flash activity -->
+	<string name="functionclean">Limpar ficheiros lixo</string>
+	<string name="functionclean_details">Limpar ficheiros lixo para libertar espaço</string>
+	<string name="functionspeed">Acelerar Sistema</string>
+	<string name="functionspeed_details">Libertar memória para maximizar desempenho</string>
+	<string name="flash_btn">Iniciar</string>
+	<string name="agreementeula">Concordo</string>
+</resources>

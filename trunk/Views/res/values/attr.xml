@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name=".controls.CustomLayout">
+    	<attr name="borders" format="flags">
+	  		<flag name="left" value="1" />
+	  		<flag name="top" value="2" />
+	  		<flag name="right" value="4" />
+	  		<flag name="bottom" value="8" />
+        </attr> 
+        <attr name="borderwidth"  format="dimension"/>
+        <attr name="bordercolor"  format="color"/>
+    </declare-styleable>
+        
+</resources>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- main activity -->
+	<string name="storagespace">Levy/Varasto</string>
+	<string name="memoryspace">Muisti</string>
+	<string name="cleanup">Roska Tiedostot</string>
+	<string name="speedup">Muistin Tehostus</string>
+	<string name="clean_caption">Siivous yksityiskohdat</string>
+	<string name="scaning">Etsitään#8230;</string>
+	<string name="cleanup_btn">Siivoa</string>
+	<string name="cancel">Peruuta</string>
+	<string name="checkup">VALITTU</string>
+	<string name="msg_no_new_version">Päivityksiä Ei saatavilla</string>
+	<string name="msg_scan_completed">Päättynyt</string>
+	<string name="msg_his_totalszie">Siivous tulokset:%s</string>
+	<string name="score">Tuulos</string>
+	<string name="memoryjunk">Löytyi roskatiedostoa muistista £º%s</string>
+	<string name="filesjunk">Löytyi roskatiedostoa £º%s</string>
+	    
+	<!-- details activity -->
+	<string name="totalsize">Total size found: %s</string>
+	<string name="noitem_file">Roskatiedostoja Ei löytynyt</string>
+	<string name="noitem_memory">Muistista roskatiedostoja Ei löytynyt</string>
+	<string name="Junk">Roskatiedosto</string>
+	    
+	<!-- menu -->
+	<string name="update">Päivitä</string>
+	<string name="feedback">Palaute</string>
+	<string name="about">Tietoja</string>
+	    
+	<!-- config file -->
+	<string name="cfg_backgroundapp">Suoritettavat ohjelmat</string>
+	<string name="cfg_appcache">Järjestelmän välimuisti</string>
+	<string name="cfg_appjunks">Application Cache</string>
+	
+	<!-- about -->
+	<string name="userlicense">Loppukäyttäjän lisenssisopimus</string>
+	<string name="twitter">Jaa Fastimizeriä Twitterissä</string>
+	<string name="facebook">Tykkää meistä Facebookissa</string>
+	<string name="homepage">Virallinen verkkosivumme</string>
+	<string name="version">Versio: </string>
+	    
+	<!-- finish activity -->
+	<string name="done">Suoritettu</string>
+	<string name="msg_clean_completed">Siivous suoritettu</string>
+	<string name="cleanmemorysize">Muistia vapautui:%s</string>
+	<string name="cleanmjunkfile">Siivottu roskatiedostoja:%s</string>
+	    
+	<!-- flash activity -->
+	<string name="functionclean">Siivoa roskatiedostot</string>
+	<string name="functionclean_details">Siivoa roskatiedostot vapauttaksesi lisää levytilaa</string>
+	<string name="functionspeed">Järjestelmän tehostus</string>
+	<string name="functionspeed_details">Vapauta muistia tehostaaksesi käyttöä</string>
+	<string name="flash_btn">Käynnistä</string>
+	<string name="agreementeula">Hyväksyn</string>
+</resources>

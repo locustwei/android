@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- main activity -->
+	<string name="storagespace">ശേഖരണം</string>
+	<string name="memoryspace">മെമ്മറി</string>
+	<string name="cleanup">ജങ്ക് ഫയലുകൾ</string>
+	<string name="speedup">മെമ്മറി ഉത്തേജിപ്പിക്കുക</string>
+	<string name="clean_caption">ക്ലീനിംഗ് വിശദാംശങ്ങൾ</string>
+	<string name="scaning">സ്കാൻ ചെയ്യുന്നു &#8230;</string>
+	<string name="cleanup_btn">ശുചീകരണം</string>
+	<string name="cancel">റദ്ദാക്കുക</string>
+	<string name="checkup">പരിശോധിക്കുക</string>
+	<string name="msg_no_new_version">അപ്ഡേറ്റുകൾ ലഭ്യമല്ല</string>
+	<string name="msg_scan_completed">പൂർത്തിയായി</string>
+	<string name="msg_his_totalszie">റെക്കോർഡുകൾ ശുചിയാക്കല് :%s</string>
+	<string name="score">സ്കോർ</string>
+	<string name="memoryjunk">ജങ്ക് മെമ്മറി കണ്ടെത്തി £º%s</string>
+	<string name="filesjunk"> ജങ്ക് ഫയലുകൾ കണ്ടെത്തി£º%s</string>
+	    
+	<!-- details activity -->
+	<string name="totalsize">മൊത്തം വലുപ്പം കണ്ടെത്തിയത് : %s</string>
+	<string name="noitem_file">ജങ്ക് ഫയലുകൾ കണ്ടെത്തിയില്ല</string>
+	<string name="noitem_memory">ജങ്ക് മെമ്മറി കണ്ടെത്തിയില്ല</string>
+	<string name="Junk">ജങ്ക് </string>
+	    
+	<!-- menu -->
+	<string name="update">പുതുക്കൽ</string>
+	<string name="feedback">അഭിപ്രായങ്ങൾ</string>
+	<string name="about">കുറിച്ച്</string>
+	    
+	<!-- config file -->
+	<string name="cfg_backgroundapp">ഓടുന്ന അപ്ലിക്കേഷനുകൾ</string>
+	<string name="cfg_appcache">സിസ്റ്റം കാഷെ</string>
+	<string name="cfg_appjunks">Application Cache</string>
+	
+	<!-- about -->
+	<string name="userlicense">യൂസർ ലൈസൻസ് ഉടമ്പടി</string>
+	<string name="twitter"> ട്വിറ്ററിൽ ഫാസ്റ്റിമൈസ് ഷെയറ് ചെയൂ</string>
+	<string name="facebook">ഫേസ്ബുക്കില് ലൈക്ക് ചെയൂ</string>
+	<string name="homepage">ഔദ്യോഗിക വെബ്സൈറ്റ്</string>
+	<string name="version">പതിപ്പ്: </string>
+	    
+	<!-- finish activity -->
+	<string name="done">പൂർത്തിയായി</string>
+	<string name="msg_clean_completed">ക്ലീനിംഗ് പൂർത്തിയായി</string>
+	<string name="cleanmemorysize">പുറത്തിറക്കിയ മെമ്മറി :%s</string>
+	<string name="cleanmjunkfile">ജങ്ക് ഫയലുകൾ ശുചിയാക്കുക :%s</string>
+	    
+	<!-- flash activity -->
+	<string name="functionclean">ജങ്ക് ഫയലുകൾ ശുചിയാക്കുക</string>
+	<string name="functionclean_details">കൂടുതൽ സംഭരണത്തിനായി ജങ്ക് ഫയലുകൾ ശുചിയാക്കുക</string>
+	<string name="functionspeed">സിസ്റ്റം ബൂസ്റ്റ്</string>
+	<string name="functionspeed_details">പ്രകടനം പരമാവധിയാക്കാൻ മെമ്മറി ഉണ്ടാക്കുക</string>
+	<string name="flash_btn">തുടക്കം</string>
+	<string name="agreementeula">ഞാൻ സമ്മതിക്കുന്നു</string>
+</resources>

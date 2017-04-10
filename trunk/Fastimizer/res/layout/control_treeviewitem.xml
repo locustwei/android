@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wisecleaner.views.CustomLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wise="http://schemas.android.com/apk/res/com.wisecleaner.fastimizer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/panelback"
+    android:minHeight="64dp"
+    android:orientation="vertical"
+    wise:bordercolor="@color/silverline"
+    wise:borders="bottom" 
+     wise:borderwidth="1dp" >
+
+    <ImageView
+        android:id="@+id/image_treeitem_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds= "true"
+        android:maxWidth="48dp"
+        android:maxHeight="48dp"/>
+
+    <CheckBox
+        android:id="@+id/ckb_treeitem_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:button="@drawable/checkbox" />
+
+    <TextView
+        android:id="@+id/txet_treeitem_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:layout_toRightOf="@+id/image_treeitem_logo"
+        android:layout_toLeftOf="@+id/text_treeitem_size" />
+
+    <TextView
+        android:id="@+id/text_treeitem_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/ckb_treeitem_selected"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true" 
+        android:text="TextView" />
+
+</com.wisecleaner.views.CustomLayout>

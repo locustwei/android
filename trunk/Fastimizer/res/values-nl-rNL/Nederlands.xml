@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- main activity -->
+	<string name="storagespace">Opslag</string>
+	<string name="memoryspace">Geheugen</string>
+	<string name="cleanup">Junk bestanden</string>
+	<string name="speedup">Geheugen Vergroten</string>
+	<string name="clean_caption">Schoonmaak Details</string>
+	<string name="scaning">Scannen&#8230;</string>
+	<string name="cleanup_btn">Schoonmaken</string>
+	<string name="cancel">Stop</string>
+	<string name="checkup">CHECK</string>
+	<string name="msg_no_new_version">Geen Updates beschikbaar</string>
+	<string name="msg_scan_completed">Gereed</string>
+	<string name="msg_his_totalszie">Schoon te maken:%s</string>
+	<string name="score">Resultaat</string>
+	<string name="memoryjunk">Junk in het geheugen £º%s</string>
+	<string name="filesjunk">Junk bestanden £º%s</string>
+	    
+	<!-- details activity -->
+	<string name="totalsize">Totaal gevonden: %s</string>
+	<string name="noitem_file">Geen junk bestanden gevonden</string>
+	<string name="noitem_memory">Geen junk in het geheugen gevonden</string>
+	<string name="Junk">Junk</string>
+	    
+	<!-- menu -->
+	<string name="update">Update</string>
+	<string name="feedback">Commentaar</string>
+	<string name="about">Over</string>
+	    
+	<!-- config file -->
+	<string name="cfg_backgroundapp">Werkende Apps</string>
+	<string name="cfg_appcache">Systeem Cache</string>
+	<string name="cfg_appjunks">Application Cache</string>
+	
+	<!-- about -->
+	<string name="userlicense">Eindgebruiker Licentie Overeenkomst</string>
+	<string name="twitter">Deel Fastimizer op Twitter</string>
+	<string name="facebook">Like ons op Facebook</string>
+	<string name="homepage">Officiële Website</string>
+	<string name="version">Versie: </string>
+	    
+	<!-- finish activity -->
+	<string name="done">Gereed</string>
+	<string name="msg_clean_completed">Schoonmaken gereed</string>
+	<string name="cleanmemorysize">Vrijgemaakt geheugen:%s</string>
+	<string name="cleanmjunkfile">Verwijderde junk bestanden:%s</string>
+	    
+	<!-- flash activity -->
+	<string name="functionclean">Verwijder junk bestanden</string>
+	<string name="functionclean_details">Verwijder junk bestanden voor meer geheugenruimte</string>
+	<string name="functionspeed">Systeem Versnellen</string>
+	<string name="functionspeed_details">Maak het geheugen vrij voor een maximale prestatie</string>
+	<string name="flash_btn">Start</string>
+	<string name="agreementeula">Akkoord</string>
+</resources>

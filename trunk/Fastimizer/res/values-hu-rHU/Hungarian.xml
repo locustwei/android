@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- main activity -->
+	<string name="storagespace">Tárhely</string>
+	<string name="memoryspace">Memória</string>
+	<string name="cleanup">Felesleges fájlok</string>
+	<string name="speedup">Memory Boost</string>
+	<string name="clean_caption">Tisztítási részletek</string>
+	<string name="scaning">Vizsgálat&#8230;</string>
+	<string name="cleanup_btn">Tisztítás</string>
+	<string name="cancel">Mégse</string>
+	<string name="checkup">ELLENŐRZÉS</string>
+	<string name="msg_no_new_version">Nincs elérhető frissítés</string>
+	<string name="msg_scan_completed">Kész</string>
+	<string name="msg_his_totalszie">Tisztítási rekord:%s</string>
+	<string name="score">Pont</string>
+	<string name="memoryjunk">Lefoglalt memória: Łş%s</string>
+	<string name="filesjunk">Felesleges fájlok: Łş%s</string>
+	    
+	<!-- details activity -->
+	<string name="totalsize">Teljes méret: %s</string>
+	<string name="noitem_file">Nincsek felesleges fájlok</string>
+	<string name="noitem_memory">Nincs lefoglalt memória</string>
+	<string name="Junk">szemét</string>
+	
+	<!-- menu -->
+	<string name="update">Frissítés</string>
+	<string name="feedback">Visszajelzés</string>
+	<string name="about">Névjegy</string>
+	
+	<!-- config file -->
+	<string name="cfg_backgroundapp">Futó alkalmazások</string>
+	<string name="cfg_appcache">Rendszer gyorsítótár</string>
+	<string name="cfg_appjunks">Application Cache</string>
+	
+	<!-- about -->
+	<string name="userlicense">Végfelhasználói licencszerződés</string>
+	<string name="twitter">Fastimizer megosztása a Twitteren</string>
+	<string name="facebook">Lájkoljon minket a Facebookon</string>
+	<string name="homepage">Hivatalos weboldal</string>
+	<string name="version">Verzió: </string>
+	
+	<!-- finish activity -->
+	<string name="done">Kész</string>
+	<string name="msg_clean_completed">A tisztítás befejeződött</string>
+	<string name="cleanmemorysize">Felszabadított memória:%s</string>
+	<string name="cleanmjunkfile">Felesleges fájlok törlése:%s</string>
+	    
+	<!-- flash activity -->
+	<string name="functionclean">Felesleges fájlok törlése</string>
+	<string name="functionclean_details">Törölje a felesleges fájlokat még több tárhelyért</string>
+	<string name="functionspeed">Rendszergyorsítás</string>
+	<string name="functionspeed_details">Szabadítson fel memóriát a teljesítmény fokozásához</string>
+	<string name="flash_btn">Indítás</string>
+	<string name="agreementeula">Elfogadom</string>
+</resources>

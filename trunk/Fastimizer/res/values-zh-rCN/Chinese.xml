@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- main activity -->
+    <string name="storagespace">存储空间</string>
+    <string name="memoryspace">内存空间</string>
+    <string name="cleanup">缓存清理</string>
+    <string name="speedup">内存加速</string>
+    <string name="clean_caption">清理详情</string>
+    <string name="scaning">扫描中&#8230;</string>
+    <string name="cleanup_btn">清理</string>
+    <string name="cancel">取消</string>
+    <string name="checkup">开始体检</string>
+    <string name="msg_no_new_version">没有更新</string>
+    <string name="msg_scan_completed">完成</string>
+    <string name="msg_his_totalszie">清理记录:%s</string>
+    <string name="score">得分</string>
+    <string name="memoryjunk">发现内存垃圾：%s</string>
+    <string name="filesjunk">发现缓存垃圾：%s</string>
+    
+    <!-- details activity -->
+    <string name="totalsize">共发现: %s</string>
+    <string name="noitem_file">没有缓存垃圾</string>
+    <string name="noitem_memory">没有内存垃圾</string>
+    <string name="Junk">垃圾</string>
+    
+    <!-- menu -->
+    <string name="update">检查更新</string>
+    <string name="feedback">反馈建议</string>
+    <string name="about">关于我们</string>
+    
+    <!-- config file -->
+    <string name="cfg_backgroundapp">运行中程序</string>
+    <string name="cfg_appcache">系统缓存</string>
+	<string name="cfg_appjunks">程序缓存</string>
+    
+    <!-- about -->
+    <string name="userlicense">最终用户许可协议</string>
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="homepage">官方网站</string>
+    <string name="version">版本: </string>
+    
+    <!-- settings -->
+    
+    <!-- finish activity -->
+    <string name="done">完成</string>
+    <string name="msg_clean_completed">清理完成</string>
+    <string name="cleanmemorysize">释放内存:%s</string>
+    <string name="cleanmjunkfile">清理缓存:%s</string>
+    
+    <!-- flash activity -->
+    <string name="functionclean">清理垃圾文件</string>
+    <string name="functionclean_details">清理垃圾文件以释放更多存储空间</string>
+    <string name="functionspeed">系统加速</string>
+    <string name="functionspeed_details">清理内存垃圾以达到最佳性能</string>
+    <string name="flash_btn">开始</string>
+    <string name="agreementeula">我同意</string>
+    
+</resources>

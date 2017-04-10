@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:wise="http://schemas.android.com/apk/res/com.wisecleaner.fastimizer"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@color/panelback" >
+        
+		<com.wisecleaner.views.CustomLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/btnselector_empty"
+		    android:minHeight="60dp"
+		    wise:bordercolor="@color/silverline"
+		    wise:borders="bottom"
+		    wise:borderwidth="1dp" >
+		
+		    <ImageView
+		        android:id="@+id/image_ms_logo"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_marginLeft="20dp"
+		        android:layout_centerVertical="true"
+		        android:src="@drawable/green"
+		        android:visibility="invisible" />
+		
+		    <ProgressBar
+		        android:id="@+id/progressBar_ms_1"
+		        style="@android:style/Widget.ProgressBar.Small.Inverse"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_centerVertical="true"
+		        android:layout_marginLeft="20dp"
+		        android:layout_toRightOf="@+id/image_ms_logo"
+		        android:indeterminateDrawable="@drawable/iamge_progress"
+		        android:visibility="invisible" />
+		
+		    <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_centerVertical="true"
+		        android:layout_marginLeft="50dp"
+		        android:orientation="vertical" >
+		
+		        <TextView
+		            android:id="@+id/text_ms_caption"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="     "
+		            android:textAppearance="?android:attr/textAppearanceMedium"
+		            android:textColor="@color/blacktext" />
+		
+		        <TextView
+		            android:id="@+id/text_ms_msg"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="     "
+		            android:textColor="@color/silvertext" 
+		            android:textAppearance="?android:attr/textAppearanceSmall" />
+		
+		    </LinearLayout>
+		
+		    <ImageView
+		        android:id="@+id/image_f_center"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"
+		        android:layout_marginRight="20dp"
+		        android:src="@drawable/gray_arrow_right" />
+
+	</com.wisecleaner.views.CustomLayout>
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingTop="0dp" >
+
+    <include
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/control_activity_caption" />
+
+    <LinearLayout
+        android:id="@+id/linear_ff_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:background="@color/background"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/text_c_selectsize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="0"
+                android:textColor="@color/textcolor"
+                android:textSize="45dp" />
+
+            <TextView
+                android:id="@+id/text_c_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/text_c_selectsize"
+                android:layout_marginTop = "24dp"
+                android:layout_marginLeft = "5dp"
+                android:text="KB"
+                android:textSize="10dp" 
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/textcolor" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text_c_unit"
+                android:layout_below="@+id/text_c_unit"
+                android:text="@string/Junk"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/textcolor"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF3bbc50" >
+
+            <TextView
+                android:id="@+id/text_c_totalsize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/textcolor" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/panelback"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_c_cleanup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btnselector_green"
+            android:onClick="onClick"
+            android:text="@string/cleanup_btn"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/textcolor" />
+
+    </LinearLayout>
+
+    <com.wisecleaner.views.TreeListView
+        android:id="@+id/list_c_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout3"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linear_ff_btn"
+        android:divider="@null"
+        android:background="@color/panelback" >
+
+    </com.wisecleaner.views.TreeListView>
+
+</RelativeLayout>

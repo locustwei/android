@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wise="http://schemas.android.com/apk/res/com.wisecleaner.fastimizer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/panelback"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/control_activity_caption" />
+
+    <com.wisecleaner.views.CustomLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	    wise:borderwidth="1dp"
+	    wise:borders="top"
+	    wise:bordercolor="@color/silverline"
+	    android:minHeight="40dp"
+        android:background="@color/silverback" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </com.wisecleaner.views.CustomLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ToggleButton
+            android:id="@+id/toggle_s_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/togglebtn"
+            android:textOff=" "
+            android:textOn=" " />
+
+        <TextView
+            android:id="@+id/text_f_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/text_ff_1"
+            android:layout_below="@+id/text_ff_1"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/text_ff_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+	
+	<com.wisecleaner.views.CustomLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/silverback"
+        android:minHeight="40dp"
+        wise:bordercolor="@color/silverline"
+        wise:borders="top"
+        wise:borderwidth="1dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </com.wisecleaner.views.CustomLayout>
+</LinearLayout>

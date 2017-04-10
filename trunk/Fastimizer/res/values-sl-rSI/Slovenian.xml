@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- main activity -->
+	<string name="storagespace">Shramba</string>                                                                                                        
+	<string name="memoryspace">Pomnilnik</string>
+	<string name="cleanup">Neželene datoteke</string>
+	<string name="speedup">Sprostitev pomnilnika</string>
+	<string name="clean_caption">Podrobnosti čiščenja</string>
+	<string name="scaning">Analiziranje&#8230;</string>
+	<string name="cleanup_btn">Čiščenje</string>
+	<string name="cancel">Prekliči</string>
+	<string name="checkup">PREGLED</string>
+	<string name="msg_no_new_version">Ni posodobitev na voljo</string>
+	<string name="msg_scan_completed">Končano</string>
+	<string name="msg_his_totalszie">Evidenca čiščenja:%s</string>
+	<string name="score">Ocena</string>
+	<string name="memoryjunk">Zaznan nezaželen spomin Łş%s</string>
+	<string name="filesjunk"> Zaznane neželene datotekeŁş%s</string>
+	    
+	<!-- details activity -->
+	<string name="totalsize">Zaznana skupna velikost: %s</string>
+	<string name="noitem_file">Ni nezaželenih datotek</string>
+	<string name="noitem_memory">Ni neželene porabe pomnilnika</string>
+	<string name="Junk">Neželeno</string>
+	    
+	<!-- menu -->
+	<string name="update">Posodobitev</string>
+	<string name="feedback">Povratne informacije</string>
+	<string name="about">O programu</string>
+	    
+	<!-- config file -->
+	<string name="cfg_backgroundapp">Odprte aplikacije</string>
+	<string name="cfg_appcache">Sistemski predpomnilnik</string>
+	<string name="cfg_appjunks">Application Cache</string>
+	
+	<!-- about -->
+	<string name="userlicense">Licenčna pogodba za končnega uporabnika</string>
+	<string name="twitter">Deli Fastimizer na Twitter-ju</string>
+	<string name="facebook">Všečkaj na Facebook-u</string>
+	<string name="homepage">Uradna spletna stran</string>
+	<string name="version">Različica:</string>
+	    
+	<!-- finish activity -->
+	<string name="done">Narejeno</string>
+	<string name="msg_clean_completed">Čiščenje končano</string>
+	<string name="cleanmemorysize">Sproščeno spomina:%s</string>
+	<string name="cleanmjunkfile">Očiščene neželene datoteke:%s</string>
+	    
+	<!-- flash activity -->
+	<string name="functionclean">Čiščenje neželenih datotek</string>
+	<string name="functionclean_details">Čiščenje neželenih datotek za več prostora za shranjevanje</string>
+	<string name="functionspeed">Sprostitev sistema</string>
+	<string name="functionspeed_details">Sprostitev spomina, da bi se povečala učinkovitost</string>
+	<string name="flash_btn">Start</string>
+	<string name="agreementeula">Se strinjam</string>
+</resources>
