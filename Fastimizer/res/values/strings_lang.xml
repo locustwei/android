@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- main activity -->
+    <string name="storagespace">Storage</string>
+    <string name="memoryspace">Memory</string>
+    <string name="cleanup">Junk Files</string>
+    <string name="speedup">Memory Boost</string>
+    <string name="clean_caption">Details of Cleaning</string>
+    <string name="scaning">Scanning&#8230;</string>
+    <string name="cleanup_btn">Clean</string>
+    <string name="cancel">Cancel</string>
+    <string name="checkup">CHECK</string>
+    <string name="msg_no_new_version">No Updates Available</string>
+    <string name="msg_scan_completed">Finished</string>
+    <string name="msg_his_totalszie">Record of Cleaning: %s</string>
+    <string name="score">Score</string>
+    <string name="memoryjunk">Found junk memory: %s</string>
+    <string name="filesjunk"> Found junk files: %s</string>
+    
+    <!-- details activity -->
+    <string name="totalsize">Total size found: %s</string>
+    <string name="noitem_file">No junk files found</string>
+    <string name="noitem_memory">No junk memory found</string>
+    <string name="Junk">Junk</string>
+    
+    <!-- menu -->
+    <string name="update">Update</string>
+    <string name="feedback">Feedback</string>
+    <string name="about">About</string>
+    
+    <!-- config file -->
+    <string name="cfg_backgroundapp">Running Apps</string>
+    <string name="cfg_appcache">System Cache</string>
+	<string name="cfg_appjunks">Application Cache</string>
+    
+    <!-- about -->
+    <string name="userlicense">End User License Agreement</string>
+    <string name="twitter">Share Fastimizer on Twitter</string>
+    <string name="facebook">Like us on Facebook</string>
+    <string name="homepage">Official Website</string>
+    <string name="version">Version: </string>
+    
+    <!-- settings -->
+    
+    <!-- finish activity -->
+    <string name="done">Done</string>
+    <string name="msg_clean_completed">Cleaning completed</string>
+    <string name="cleanmemorysize">Released memory: %s</string>
+    <string name="cleanmjunkfile">Clean junk files: %s</string>
+    
+    <!-- flash activity -->
+    <string name="functionclean">Clean junk files</string>
+    <string name="functionclean_details">Clean junk files for more storage</string>
+    <string name="functionspeed">System Boost</string>
+    <string name="functionspeed_details">Free up memory to maximize performance</string>
+    <string name="flash_btn">Start</string>
+    <string name="agreementeula">I agree</string>
+    
+</resources>

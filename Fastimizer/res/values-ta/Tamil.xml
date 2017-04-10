@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- main activity -->
+	<string name="storagespace">சேமிப்பு</string>
+	<string name="memoryspace">நினைவகம்</string>
+	<string name="cleanup">குப்பை கோப்புகளை</string>
+	<string name="speedup">நினைவகம் பூஸ்ட்</string>
+	<string name="clean_caption">சுத்தம் விவரங்கள்</string>
+	<string name="scaning">ஸ்கேனிங் &#8230;</string>
+	<string name="cleanup_btn">சுத்தம்</string>
+	<string name="cancel">ரத்து</string>
+	<string name="checkup">சரிபார்க்கவும்</string>
+	<string name="msg_no_new_version">மேம்படுத்தல்கள் இல்லை</string>
+	<string name="msg_scan_completed">முடிந்துவிட்டது</string>
+	<string name="msg_his_totalszie">சுத்தம் பதிவு :%s</string>
+	<string name="score">மதிப்பெண்</string>
+	<string name="memoryjunk">குப்பை நினைவக காணப்படுகிறது £º%s</string>
+	<string name="filesjunk"> குப்பை கோப்புகளை காணப்படுகிறது £º%s</string>
+	    
+	<!-- details activity -->
+	<string name="totalsize">காணப்படும் மொத்த அளவு : %s</string>
+	<string name="noitem_file">குப்பை கோப்புகளை காணவில்லை</string>
+	<string name="noitem_memory">குப்பை நினைவக காணப்படவில்லை</string>
+	<string name="Junk">குப்பை</string>
+	    
+	<!-- menu -->
+	<string name="update">மேம்படுத்தல்</string>
+	<string name="feedback">கருத்து</string>
+	<string name="about">பற்றி</string>
+	    
+	<!-- config file -->
+	<string name="cfg_backgroundapp">இயங்கும் பயன்பாடுகள்</string>
+	<string name="cfg_appcache">கணினி கேச்</string>
+	<string name="cfg_appjunks">Application Cache</string>
+	
+	<!-- about -->
+	<string name="userlicense">பயனர் உரிம ஒப்பந்தம்</string>
+	<string name="twitter">டிவிட்டரில் பகிர்க</string>
+	<string name="facebook">ஃபேஸ்புக்கில் விரும்ப</string>
+	<string name="homepage">அதிகாரப்பூர்வ இணையதளம்</string>
+	<string name="version">பதிப்பு : </string>
+	    
+	<!-- finish activity -->
+	<string name="done">முடிந்தது</string>
+	<string name="msg_clean_completed">சுத்தம் நிறைவு</string>
+	<string name="cleanmemorysize">வெளியிடப்பட்ட நினைவக :%s</string>
+	<string name="cleanmjunkfile">குப்பை கோப்புகளை சுத்தம் செய்ய வேண்டும் :%s</string>
+	    
+	<!-- flash activity -->
+	<string name="functionclean">குப்பை கோப்புகளை நீக்க</string>
+	<string name="functionclean_details">மேலும் சேமிப்புக்கு குப்பை கோப்புகளை நீக்கும்</string>
+	<string name="functionspeed">அமைப்பு பூஸ்ட்</string>
+	<string name="functionspeed_details">செயல்திறனை அதிகரிக்க நினைவக வெளியீடு</string>
+	<string name="flash_btn">தொடங்கு</string>
+	<string name="agreementeula">நான் ஒப்புக்கொள்கிறேன்</string>
+</resources>

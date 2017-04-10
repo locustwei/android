@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- main activity -->
+	<string name="storagespace">Сховішча</string>
+	<string name="memoryspace">Памяць</string>
+	<string name="cleanup">Сьмецьце</string>
+	<string name="speedup">Ачыстка памяці</string>
+	<string name="clean_caption">Падрабязна</string>
+	<string name="scaning">Праверка&#8230;</string>
+	<string name="cleanup_btn">Ачысьціць</string>
+	<string name="cancel">Скасаваць</string>
+	<string name="checkup">ПРАВЕРЫЦЬ</string>
+	<string name="msg_no_new_version">Абнаўленьні адсутнічаюць</string>
+	<string name="msg_scan_completed">Выканана</string>
+	<string name="msg_his_totalszie">Справаздача:%s</string>
+	<string name="score">Лік</string>
+	<string name="memoryjunk">Памяці засьмечана Јє%s</string>
+	<string name="filesjunk">Знойдзена сьмецьця Јє%s</string>
+	    
+	<!-- details activity -->
+	<string name="totalsize">Агульны памер: %s</string>
+	<string name="noitem_file">Сьмецьця ня знойдзена</string>
+	<string name="noitem_memory">Памяць не засьмечаная</string>
+	<string name="Junk">Сьмецьце</string>
+	    
+	<!-- menu -->
+	<string name="update">Абнаўленьне</string>
+	<string name="feedback">Водгук</string>
+	<string name="about">Пра праґраму</string>
+	    
+	<!-- config file -->
+	<string name="cfg_backgroundapp">Прыклад., што працуюць</string>
+	<string name="cfg_appcache">Сыстэмны кэш</string>
+	<string name="cfg_appjunks">Application Cache</string>
+	
+	<!-- about -->
+	<string name="userlicense">Карыстацкая дамова</string>
+	<string name="twitter">Парайце Fastimizer у Twitter</string>
+	<string name="facebook">Будзьма разам у Facebook</string>
+	<string name="homepage">Вэб-старонка</string>
+	<string name="version">Вэрсія: </string>
+	    
+	<!-- finish activity -->
+	<string name="done">Гатова</string>
+	<string name="msg_clean_completed">Ачыстка выкананая</string>
+	<string name="cleanmemorysize">Памяці вызвалена:%s</string>
+	<string name="cleanmjunkfile">Сьмецьця выдалена:%s</string>
+	    
+	<!-- flash activity -->
+	<string name="functionclean">Ачыстка ад сьмецьця</string>
+	<string name="functionclean_details">Ачышчае кампутар ад сьмецьцевых файлаў</string>
+	<string name="functionspeed">Паскар. сыстэмы</string>
+	<string name="functionspeed_details">Вызваляе памяць дзеля паляпшэньня хуткадзейнасьці</string>
+	<string name="flash_btn">Пачаць</string>
+	<string name="agreementeula">Я згодзен</string>
+</resources>

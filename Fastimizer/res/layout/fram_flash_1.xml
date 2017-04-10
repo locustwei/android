@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#11b14a" >
+
+    <com.wisecleaner.views.PointsDraw
+        android:id="@+id/points_ff_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/points_ff_bottom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <RelativeLayout
+            android:id="@+id/linear_ff_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingBottom="30dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/image_ff_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/flush_1" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_ff_logo"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/functionclean"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/textcolor" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/functionclean_details"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/textcolor" />
+            </LinearLayout>
+    </RelativeLayout>
+ </RelativeLayout>
+</RelativeLayout>

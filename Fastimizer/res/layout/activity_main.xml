@@ -1,0 +1,259 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:wise="http://schemas.android.com/apk/res/com.wisecleaner.fastimizer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.wisecleaner.views.CustomLayout 
+        android:id="@+id/relativeLayout_m_title" 
+        android:layout_width="match_parent" 
+        android:layout_height="50dip" 
+        android:layout_alignParentLeft="true" 
+        android:layout_alignParentTop="true" 
+        android:background="@color/background" >
+
+        <ImageButton
+            android:id="@+id/btn_m_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/btnselector_empty"
+            android:onClick="onClick"
+            android:src="@drawable/menu" />
+
+        <ImageView
+            android:id="@+id/image_m_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/logo_title" />
+
+        <TextView
+            android:id="@+id/text_m_appname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/image_m_logo"
+            android:gravity="center"
+            android:text="@string/maincaption"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/textcolor" />
+
+    </com.wisecleaner.views.CustomLayout>
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/view_m_bottompanel"
+        android:layout_below="@+id/relativeLayout_m_title"
+        android:background="@color/background" >
+
+        <com.wisecleaner.views.MeterChartView
+            android:id="@+id/chart_m_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick" />
+
+        <TextView
+            android:id="@+id/text_m_scanmsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/white"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/view_m_bottompanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/background"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/view_m_scanmsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout_m_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/panelback" >
+
+                <Button
+                    android:id="@+id/btn_m_docleanup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_button_touch"
+                    android:focusable="true"
+                    android:onClick="onClick"
+                    android:text="@string/cleanup_btn"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_m_btnview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout_m_leable"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1" >
+
+                    <com.wisecleaner.views.MeterChartView
+                        android:id="@+id/chart_m_store"
+                        android:layout_width="50sp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/chart_m_store"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/text_m_storesize"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#FFFFFF" />
+
+                        <TextView
+                            android:id="@+id/text_m_scaption"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/storagespace"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#FFFFFF"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1" >
+
+                    <com.wisecleaner.views.MeterChartView
+                        android:id="@+id/chart_m_memory"
+                        android:layout_width="50sp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/chart_m_memory"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/text_m_memsize"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textColor="#FFFFFF" />
+
+                        <TextView
+                            android:id="@+id/text_m_memcaption"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/memoryspace"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#FFFFFF"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout_m_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/panelback" >
+
+                <com.wisecleaner.views.CustomLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/panelback"
+                    wise:bordercolor="@color/silverline"
+                    wise:borders="right"
+                    wise:borderwidth="1dp" >
+
+                    <Button
+                        android:id="@+id/btn_m_cleanup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/btnselector_empty"
+                        android:drawableTop="@drawable/junk_files"
+                        android:focusable="true"
+                        android:onClick="onClick"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/cleanup"
+                        android:textColor="@color/silvertext" />
+
+                </com.wisecleaner.views.CustomLayout>
+
+                <Button
+                    android:id="@+id/btn_m_speedup"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnselector_empty"
+                    android:drawableTop="@drawable/speedup"
+                    android:focusable="true"
+                    android:onClick="onClick"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/speedup"
+                    android:textColor="@color/silvertext" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        
+
+        
+
+    </LinearLayout>
+
+</RelativeLayout>

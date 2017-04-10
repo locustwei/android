@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- main activity -->
+	<string name="storagespace">Складиште</string>
+	<string name="memoryspace">Меморија</string>
+	<string name="cleanup">Одбачене датотеке</string>
+	<string name="speedup">Убрзање меморије</string>
+	<string name="clean_caption">Детаљи чишћења</string>
+	<string name="scaning">Прегледање&#8230;</string>
+	<string name="cleanup_btn">Очисти</string>
+	<string name="cancel">Откажи</string>
+	<string name="checkup">ПРОВЕРИ</string>
+	<string name="msg_no_new_version">Нема нових исправки</string>
+	<string name="msg_scan_completed">Завршено</string>
+	<string name="msg_his_totalszie">Запис чишћења:%s</string>
+	<string name="score">Исход</string>
+	<string name="memoryjunk">Пронађене бачене у меморију Łş%s</string>
+	<string name="filesjunk"> Пронађене бачене датотеке Łş%s</string>
+	    
+	<!-- details activity -->
+	<string name="totalsize">Укупна величина пронађеног: %s</string>
+	<string name="noitem_file">Нису пронађене бачене датотеке</string>
+	<string name="noitem_memory">Нису пронађене бачене у меморију</string>
+	<string name="Junk">Бачено</string>
+	    
+	<!-- menu -->
+	<string name="update">Ажурирај</string>
+	<string name="feedback">Повратна информација</string>
+	<string name="about">O...</string>
+	    
+	<!-- config file -->
+	<string name="cfg_backgroundapp">Покренуте апликације</string>
+	<string name="cfg_appcache">Кеш меморија система</string>
+	<string name="cfg_appjunks">Application Cache</string>
+	
+	<!-- about -->
+	<string name="userlicense">Уговор о лиценци крајњег корисника</string>
+	<string name="twitter">Подели Fastimizer на Twitter-у</string>
+	<string name="facebook">Омиљен на Facebook-у</string>
+	<string name="homepage">Званичан сајт</string>
+	<string name="version">Издање: </string>
+	    
+	<!-- finish activity -->
+	<string name="done">Завршено</string>
+	<string name="msg_clean_completed">Чишћење је завршено</string>
+	<string name="cleanmemorysize">Ослобођено меморије:%s</string>
+	<string name="cleanmjunkfile">Очишћено бачених датотека:%s</string>
+	
+	<!-- flash activity -->
+	<string name="functionclean">Очисти бачене датотеке</string>
+	<string name="functionclean_details">Очисти бачене датотеке ради више простора</string>
+	<string name="functionspeed">Убрзање система</string>
+	<string name="functionspeed_details">Ослободи меморију због бољих перформанси</string>
+	<string name="flash_btn">Почни</string>
+	<string name="agreementeula">Слажем се</string>
+</resources>

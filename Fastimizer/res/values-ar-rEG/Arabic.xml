@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- main activity -->
+	<string name="storagespace">التخزين</string>
+	<string name="memoryspace">الذاكرة</string>
+	<string name="cleanup">ملفات غير مهمة</string>
+	<string name="speedup">تسريع الذاكرة</string>
+	<string name="clean_caption">تفاصيل التنظيف</string>
+	<string name="scaning">جاري الفحص&#8230;</string>
+	<string name="cleanup_btn">تنظيف</string>
+	<string name="cancel">ألغاء</string>
+	<string name="checkup">فحص</string>
+	<string name="msg_no_new_version">لا يوجد تحديثات</string>
+	<string name="msg_scan_completed">انتهى</string>
+	<string name="msg_his_totalszie">سجل التنظيف:%s</string>
+	<string name="score">النتيجة</string>
+	<string name="memoryjunk">ذاكرة مهدورة £؛%s</string>
+	<string name="filesjunk"> ملفات غير مهمة£؛%s</string>
+	    
+	<!-- details activity -->
+	<string name="totalsize">الحجم الكلي: %s</string>
+	<string name="noitem_file">لم يتم اجاد ملفات غير مهمة</string>
+	<string name="noitem_memory">لم يتم ايجاد ذاكرة مهدورة</string>
+	<string name="Junk">غير هام</string>
+	    
+	<!-- menu -->
+	<string name="update">تحديث</string>
+	<string name="feedback">ملاحظاتكم</string>
+	<string name="about">عن التطبيق</string>
+	    
+	<!-- config file -->
+	<string name="cfg_backgroundapp">تطبيقات قيد العمل</string>
+	<string name="cfg_appcache">الملفات المؤقتة للنظام</string>
+	<string name="cfg_appjunks">Application Cache</string>
+	<!-- about -->
+	<string name="userlicense">انتهاء اتفاقية ترخيص المستخدم</string>
+	<string name="twitter">شارك هذا التطبيق على تويتر</string>
+	<string name="facebook">تابعنا على الفيسبوك (هيجا)</string>
+	<string name="homepage">الموقع الرسمي</string>
+	<string name="version">الاصدار: </string>
+	    
+	<!-- finish activity -->
+	<string name="done">تم</string>
+	<string name="msg_clean_completed">تم اكتمال التنظيف</string>
+	<string name="cleanmemorysize">الذاكرة المحررة:%s</string>
+	<string name="cleanmjunkfile">تنظيف المفات المؤقتة والغير هامة:%s</string>
+	    
+	<!-- flash activity -->
+	<string name="functionclean">تنظيف المفات المؤقتة والغير هامة</string>
+	<string name="functionclean_details">تنظيف المفات المؤقتة والغير هامة لمساحة اكثر</string>
+	<string name="functionspeed">تسريع النظام</string>
+	<string name="functionspeed_details">تحرير الذاكرة لأداء اكبر واقوى</string>
+	<string name="flash_btn">ابدأ</string>
+	<string name="agreementeula">موافق</string>
+</resources>
